@@ -23,8 +23,8 @@ type Flow struct {
 
 type Step struct {
 	Name      string
-	Url       string
-	Ttl       int64
+	URL       string
+	TTL       int64
 	Sleep     int64
 	NextSteps []*NextStep `json:"next_steps"`
 }
